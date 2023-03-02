@@ -1,13 +1,13 @@
 <?php
 
-include('include/header.php')
+    include('include/header.php')
 
 ?>
 
 <!-- Start body content -->
 <div class="main_wrap">
     <!-- Start hero Banner -->
-        <section class="home_banner" style="background-image: url(&#39;https://koalainsulation.com/corp_images/air-sealing-banner.jpg&#39;);">
+    <section class="home_banner" style="background-image: url('https://www.insulationusa.2com.co/wp-content/uploads/elementor/thumbs/Sellado-de-aire-q1w28w882ay0k4qaxgwcwqo83zr1nrls553dfz8tec.png');">
             <img class="d-none page_banner_mobile" src="./Air Sealing_files/air-sealing-banner.jpg">
             <div class="container hero_caption">
                 <div class="row">
@@ -15,10 +15,7 @@ include('include/header.php')
                         <div class="banner_caption_content ">
                             <h1>Air Sealing</h1>
                             <p>We identify and seal leaks letting air in and out of your home to reduce unwanted temperature loss or gain.</p>
-                            <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
-                                <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4">                                <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                                <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
-                            </form>
+                          
                         </div>
                     </div>
                 </div>
@@ -95,10 +92,7 @@ include('include/header.php')
                                 </ul>
                             </div>
                         </div>
-                        <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-3">
-                            <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4">                            <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                            <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
-                        </form>
+                       
                     </div>
                 </div>
             </div>
@@ -188,11 +182,9 @@ include('include/header.php')
                 <div class="row">
                     <div class="col-md-12">
                         <div class="satisfy_customer_content sky_blue_bg aos-init" data-aos="fade-up" data-aos-duration="1200">
-                            <h2>Hear from a satisfied customer in the Midwest</h2>
-                            <p>“They were very good and educated me about installation and how to help me with my temperature changes that were occurring. Thank you.”</p>
-                            <div class="customer_detail">
-                                <h4><strong>- Cleo W.</strong><br>Indian Head Park, IL</h4>
-                            </div>
+                            <h2>Air Sealing</h2>
+                            <p>In our Air Sealing service, we help improve the performance of heating and cooling in the home. Our highly trained team identifies air leak areas in the home and seals them to prevent health problems and protect the structure of the home. Plus, air sealing helps reduce long-term costs on your energy bill. Contact us today to schedule an appointment and experience the difference in our air sealing service!                            </p>
+                            
                         </div>
                     </div>
                 </div>
