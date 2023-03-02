@@ -14,9 +14,10 @@ include('include/header.php')
                         <div class="banner_caption_content ">
                             <h1>Batt Insulation</h1>
                             <p>One of the most recognizable forms of insulation. Batt comes in large rolls or pre-cut sections that are typically pink or yellow in color. These are installed in sheet form and laid out between the studs in walls, floors, and attics.</p>
-                            <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
+                            <form action="#" class="find_nearest_form mt-4">
                                 <input type="hidden" name="_token" value="Cdd7LUVPeDCOaIx9i5xnbnvswhh8MecBwRHCJ9OF">                                <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                                <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
+                                <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                    LOCATION</button>
                             </form>
                         </div>
                     </div>
@@ -147,9 +148,10 @@ include('include/header.php')
                             </li>
                         </ul>
                         <p class="lead_txt text-white text-center">Find your nearest Insolutionusa location to speak with our insulation professionals!</p>
-                        <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
+                        <form action="#" class="find_nearest_form mt-4">
                             <input type="hidden" name="_token" value="Cdd7LUVPeDCOaIx9i5xnbnvswhh8MecBwRHCJ9OF">                            <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                            <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
+                            <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                    LOCATION</button>
                         </form>
                     </div>
                 </div>
@@ -225,9 +227,10 @@ include('include/header.php')
                     <div class="col-md-12 text-center">
                         <h2>Ready To Get Your Batt Insulation Installed?</h2>
                         <p class="lead_txt">Find your nearest Insolutionusa location to get a free quote:</p>
-                        <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
+                        <form action="#" class="find_nearest_form mt-4">
                             <input type="hidden" name="_token" value="Cdd7LUVPeDCOaIx9i5xnbnvswhh8MecBwRHCJ9OF">                            <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                            <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
+                            <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                    LOCATION</button>
                         </form>
                     </div>
                 </div>

@@ -12,9 +12,10 @@ include('include/header.php')
                     <div class="col-lg-7">
                         <div class="banner_caption_content ">
                             <h1>See What Insulation Is Right For You</h1>
-                            <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4" data-gtm-form-interact-id="0">
+                            <form action="#" class="find_nearest_form mt-4">
                                 <input type="hidden" name="_token" value="WCgq94KpsSJu5p1pt1SRN9q93WRTABc82cQlMjuD">                                <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code" data-gtm-form-interact-field-id="0">
-                                <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
+                                <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                    LOCATION</button>
                             </form>
                         </div>
                     </div>
@@ -79,9 +80,10 @@ include('include/header.php')
                     <div class="col-md-12 text-center">
                         <h2>Get A Free Quote Today</h2>
                         <p class="lead_txt">Find your nearest Koala location to get a free quote:</p>
-                        <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
+                        <form action="#" class="find_nearest_form mt-4">
                             <input type="hidden" name="_token" value="WCgq94KpsSJu5p1pt1SRN9q93WRTABc82cQlMjuD">                            <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                            <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
+                            <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                    LOCATION</button>
                         </form>
                     </div>
                 </div>

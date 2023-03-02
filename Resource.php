@@ -65,11 +65,11 @@ The larger a ... </p></div>
                                         <div class="col-lg-4 col-md-6">
                     <div class="resources_grid">
                         <div class="resource_img">
-                            <img src="https://www.insulationusa.2com.co/wp-content/uploads/2023/02/Casa.webp" class="img-fluid">
+                            <img src="https://www.insulationusa.2com.co/wp-content/uploads/2023/02/auslamiento-de-bateria.png" class="img-fluid">
                         </div>
                         <div class="resource-block">
                             <small>February 8, 2023</small>
-                            <h3 class="mt-2 mb-3"><a href="https://koalainsulation.com/resource_detail/your-guide-to-open-cell-and-closed-cell-spray-foam" class="">Your Guide To Open-Cell and Closed-Cell Spray Foam</a></h3>
+                            <h3 class="mt-2 mb-3"><a href="./Your Guide To Open-Cell and Closed-Cell Spray Foam.php" class="">Your Guide To Open-Cell and Closed-Cell Spray Foam</a></h3>
                                                         <div class="resource_desc_vs"><p>Understanding Spray Foam Insulation
 
 If you're looking for a strong insulator that also acts as an effective air sealant, spray foam insulation is a great choice. This material is the result of a mixture of chemicals; for quality application, these are mixed on-site by a professional and sent through a hose into the stud cavity. When spray foam is applied to a surface, the chemicals react and harden to create a long-term barrier.
@@ -77,7 +77,7 @@ If you're looking for a strong insulator that also acts as an effective air seal
 &nbsp;
 
 While there are spray foam varieties that come  ... </p></div>
-                            <a href="https://koalainsulation.com/resource_detail/your-guide-to-open-cell-and-closed-cell-spray-foam" class="read_article_link">Read Article</a>
+                            <a href="./Your Guide To Open-Cell and Closed-Cell Spray Foam.php" class="read_article_link">Read Article</a>
                         </div>
                     </div>
                 </div>
@@ -871,6 +871,7 @@ The Koala Insulation process begins with health and safety training for every em
         </div>
     </section>
 </div>
+
 <?php
 
     include('include/footer.php')

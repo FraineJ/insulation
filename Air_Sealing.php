@@ -198,9 +198,10 @@
                     <div class="col-md-12 text-center">
                         <h2>Ready To Have Our Experts Discover Your Air Leaks? </h2>
                         <p class="lead_txt">Find your nearest Koala location to get a free quote:</p>
-                        <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
+                        <form action="#" class="find_nearest_form mt-4">
                             <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4">                            <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                            <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
+                            <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                    LOCATION</button>
                         </form>
                     </div>
                 </div>
