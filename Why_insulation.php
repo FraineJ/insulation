@@ -173,7 +173,7 @@ include('include/header.php')
                     <div class="col-lg-6">
                         <div class="lifetime_warranty_content">
                             <div class="lifetime_icon">
-                                <img src="./insulation_files/warranty-icon.png">
+                                <img src="./insulation_files/My-warranty-icon.png">
                             </div>
                             <h2 style="max-width: 500px; margin: 0 auto 15px;">Every Project Is Backed By Insulationusa’s Limited Lifetime Guarantee</h2>
                             <p class="lead_txt">Feel confident knowing your insulation project is backed by a limited lifetime guarantee.</p>
