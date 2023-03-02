@@ -1,0 +1,197 @@
+.locations_map_content .find_nearest_form {
+    flex-direction: column;
+}
+.map_nearest_vs
+{
+    position: relative;
+    display: flex;
+}
+.gm-style-iw.gm-style-iw-c {
+    max-width: 340px !important;
+    border-radius: 0px;
+    padding: 0px;
+    min-width: 300px !important;
+}
+.gm-style-iw-d {
+    max-height: none !important;
+    overflow: auto !important;
+}
+.info_content.map_content_vs {
+    position: relative;
+    padding: 15px 15px;
+}
+.info_content.map_content_vs .custom_btn_orange {
+    padding: 6px 15px;
+    font-size: 14px;
+    margin-top: 15px !important;
+}
+.common_served_area_map {
+    background: #f4f4f2;
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.common_served_area_map strong {
+    font-size: 15px;
+    margin-bottom: 6px;
+    display: block;
+    font-weight: 600;
+}
+.info_content.map_content_vs .common_served_area_map p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    max-height: 70px;
+    overflow-y: auto;
+    font-weight: normal;
+    color: #666;
+    padding-right: 15px;
+}
+.info_content.map_content_vs h3 {
+    font-size: 22px;
+    color: #043868;
+}
+.info_content.map_content_vs p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.info_content.map_content_vs p > i {
+    color: #94c83f;
+    min-width: 15px;
+    font-size: 16px;
+}
+/* width */
+.info_content.map_content_vs .common_served_area_map p::-webkit-scrollbar {
+    width: 6px;
+}
+/* Track */
+.info_content.map_content_vs .common_served_area_map p::-webkit-scrollbar-track {
+    background: #fff;
+}
+/* Handle */
+.info_content.map_content_vs .common_served_area_map p::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+.info_content.map_content_vs .common_served_area_map p::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.location_find_content .common_served_area_location p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    max-height: 112px;
+    overflow-y: auto;
+    font-weight: normal;
+    color: #666;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+.location_find_content .common_served_area_location{
+    position: relative;
+    padding: 0;
+}
+
+/* width */
+.common_served_area_location p::-webkit-scrollbar {
+    width: 6px;
+}
+/* Track */
+.common_served_area_location p::-webkit-scrollbar-track {
+    background: #f4f4f2;
+}
+/* Handle */
+.common_served_area_location p::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+.common_served_area_location p::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+#search_zip_code_modal .modal-lg, #search_success .modal-lg {
+    max-width: 850px;
+    padding: 0px 0px;
+}
+button.toggle_button span {
+    font-weight: 600;
+}
+.menu-heading {
+    font-weight: 600;
+}
+#search_zip_code_modal .find_nearest_form button {
+    font-size: 13px;
+}
+#search_zip_code_modal .find_nearest_form input.form-control {
+    font-size: 13px;
+}
+#estimate_modal .modal-lg {
+    padding: 30px 10px;
+}
+label.error {
+    color: #f00 !important;
+    font-size: 12px !important;
+}
+.row.steps_option {
+    position: relative;
+    padding-bottom: 25px;
+}
+.row.steps_option .col-md-6 {
+    position: static;
+}
+.row.steps_option label.custm_radio_chkbox {
+    position: static;
+}
+.steps_option label.error {
+    position: absolute;
+    bottom: 0;
+}
+ul.services_checkbox_ul {
+    position: relative;
+    padding-bottom: 20px;
+}
+ul.services_checkbox_ul label#services\[\]-error {
+    position: absolute;
+    bottom: 0;
+}
+ul.services_checkbox_ul .custm_chkbox {
+    position: static;
+}
+.info_content.map_content_vs p a {
+    color: #000;
+}
+.choose_active_row {
+    background: rgb(223 230 236) !important;
+}
+.choose_insulation_hightlight_left ul li:hover {
+    background: rgb(223 230 236);
+}
+/*.gm-style .gm-style-iw-tc::after {
+     left: -13px;
+ }*/
+ .acc_content p a {
+    color: #94c83f;
+    font-weight: 600;
+}
+ul.incentive_resource_uline li {
+    width: 100% !important;
+}
+.resource_desc_vs{
+    height: 90px;
+}
+
+
+@media (max-width: 767px){
+.estimate_form label {
+    font-size: 14px !important;
+}
+.estimate_form input.form-control, .estimate_form select.form-control {
+    font-size: 15px;
+}
+.why_koala .text-left {
+    text-align: center !important;
+}
+}

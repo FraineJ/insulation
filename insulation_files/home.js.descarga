@@ -1,0 +1,169 @@
+$(document).ready(function () {
+    if ($('body.home').length) {
+        var markers = [];
+        var infoWindowContent = [];
+
+        function initMap(markers, infoWindowContent) /* infoWindowContent is content which will be displayed after click on marker*/ {
+            var map;
+            var bounds = new google.maps.LatLngBounds();
+            var mapOptions = {
+                mapTypeId: 'roadmap',
+                center: new google.maps.LatLng(37.09024, -95.712891)
+            };
+            // Display a map on the web page
+            map = new google.maps.Map(document.getElementById("mapCanvas"), mapOptions);
+            map.setTilt(100);
+
+            // Add multiple markers to map /
+            var infoWindow = new google.maps.InfoWindow(), marker, i;
+            if (markers != undefined && markers.length > 0) {
+                for (i = 0; i < markers.length; i++) {
+                    const url = APP_BASE_URL+"/corp_images/map-pin-icon.svg";
+                     var image = {
+                     url: url
+                   /*  size: new google.maps.Size(71, 71),
+                     origin: new google.maps.Point(0, 0),
+                     anchor: new google.maps.Point(0, 32),
+                     scaledSize: new google.maps.Size(50, 50)*/
+                     };
+                    var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+                    bounds.extend(position);
+                    marker = new google.maps.Marker({
+                        position: position,
+                        map: map,
+                        icon: image,
+                        title: markers[i][0]
+                    });
+
+                    // Add info window to marker /
+                    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                        return function () {
+                            infoWindow.setContent(infoWindowContent[i][0]);
+                            infoWindow.open(map, marker);
+                        }
+
+                     })(marker, i));
+                    // Center the map to fit all markers on the screen /
+                    map.fitBounds(bounds);
+                }
+
+            }
+
+            // Set zoom level /
+            var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function (event) {
+                this.setZoom(4);
+                google.maps.event.removeListener(boundsListener);
+            });
+        }
+
+        function mapShowingBySearch(req_method) {
+            var url = $(".find_nearest_form_home").attr('action');
+            $.ajax({
+                type: req_method,
+                url: url,
+                data: $(".find_nearest_form_home").serialize(),
+                success: function (response, textStatus, jqXHR) {
+                    if (response.success != undefined) {
+                        var a1 = [];
+                        var a2 = [];
+                        var i = 0;
+                        $.each(response.data, function (index, value) {
+                            var x = [value.location_name, value.location_latitude, value.location_longitude, i];
+                            a1.push(x);
+                            i++;
+
+                            var anchor
+                            /*check if microsite is enabled and show "Visit website option for enabled microsite only */
+                            if (value.is_microsite_enable == 1) {
+                                anchor = '<a href=' + value.microsite_url + ' class=" btn custom_btn_orange btn-sm mt-2" target="_blank" >VISIT WEBSITE</a>';
+                            } else {
+                                anchor = '<a href="javascript:void(0)" class=" btn custom_btn_orange btn-sm mt-2">COMING SOON</a>';
+                            }
+                            var siteTitle = 'Koala Insulation of ';
+                            var y = [
+                                '<div class="info_content map_content_vs">' +
+                                '<h3>' + siteTitle + value.title + '</h3>' +
+                                '<p><i class="fa fa-map-marker mr-2"></i>' + ((value.location_address != null) ? value.location_address : "") + '</p>' +
+                                '<p><i class="fa fa-phone mr-2"></i> <a href="tel:'+value.location_phone+'">' + ((value.location_phone != null) ? value.location_phone : "") + '</a></p>' +
+                                '<div class="common_served_area_map"><strong>Common Areas Serviced</strong><p>' +  ((value.city != null) ? value.city : "") +
+                                '</p></div>' +
+                                '<div>' + anchor +
+                                '</div>' +
+                                '</div>'];
+                            a2.push(y);
+                        });
+                        initMap(a1, a2);
+                        if (response.count == 0 && ($(".find_nearest_form_home").find('input[name="state"]').val() != "" || $(".find_nearest_form_home").find('input[name="zip_code"]').val() != "")) {
+                            toastr["error"]("Koala Insulation doesn’t appear to currently service your area,but please give us a call to see how we can help you! <br> <a href='tel:8005204952'>877-87-KOALA</a>");
+                        }
+                    }
+                    if (response.error != undefined) {
+                        initMap();
+                        toastr["error"](response.message);
+                    }
+                },
+                error: function (response) {
+                    if (response.status == 302) {
+                        var err = JSON.parse(response.responseText);
+                        toastr["error"](err.message);
+                        setTimeout(function () {
+                            window.location.reload();
+                        }, 3000);
+
+                        return false;
+                    }
+                    toastr["error"]("Please try again later");
+                }
+            });
+        }
+
+        $(".find_nearest_form_home").find('select[name="state"]').change(function () {
+
+            if ($(".find_nearest_form_home").find('select[name="state"]').val().trim().length > 0) {
+                $(".find_nearest_form_home").find('input[name="zip_code"]').val('');
+                mapShowingBySearch('POST');
+                //toastr["error"]("Please select state");
+                 //return false;
+                }
+
+        });
+
+        $(".find_nearest_form_home").find('button').on('click', function () {
+            if ($(".find_nearest_form_home").find('input[name="zip_code"]').val().trim().length == 0) {
+                toastr["error"]("Please enter zip code");
+                return false;
+            }
+            $(".find_nearest_form_home").find('select[name="state"]').val('').trigger('change');
+            mapShowingBySearch('POST');
+        });
+        mapShowingBySearch('GET');
+    }
+
+    $(".circle_grpah svg path#c1, .circle_grpah svg .text_path1").hover(function() {
+        $("path, text").removeClass('active');
+        $(".circle_grpah svg path#c1, .circle_grpah svg .text_path1").addClass('active');
+        $('.graph_icons img' ).attr("src","corp_images/homeowners_circle_img.svg");
+    });
+
+    $(".circle_grpah svg path#c2, .circle_grpah svg .text_path2").hover(function() {
+        $("path, text").removeClass('active');
+        $(".circle_grpah svg path#c2, .circle_grpah svg .text_path2").addClass('active');
+        $('.graph_icons img' ).attr("src","corp_images/contractor_circle_img.svg");
+    });
+    $(".circle_grpah svg path#c3, .circle_grpah svg .text_path3").hover(function() {
+        $("path, text").removeClass('active');
+        $(".circle_grpah svg path#c3, .circle_grpah svg .text_path3").addClass('active');
+        $('.graph_icons img' ).attr("src","corp_images/restoration_circle_img.svg");
+    });
+    $(".circle_grpah svg path#c4, .circle_grpah svg .text_path4").hover(function() {
+        $("path, text").removeClass('active');
+        $(".circle_grpah svg path#c4, .circle_grpah svg .text_path4").addClass('active');
+        $('.graph_icons img' ).attr("src","corp_images/property_circle_img.svg");
+    });
+    $(".circle_grpah svg path#c5, .circle_grpah svg .text_path5").hover(function() {
+        $("path, text").removeClass('active');
+        $(".circle_grpah svg path#c5, .circle_grpah svg .text_path5").addClass('active');
+        $('.graph_icons img' ).attr("src","corp_images/trades_circle_icon.svg");
+    });
+
+});
