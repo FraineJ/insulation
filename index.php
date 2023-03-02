@@ -2452,7 +2452,7 @@ include('include/header.php')
                     <div class="col-lg-6">
                         <div class="lifetime_warranty_content">
                             <div class="lifetime_icon">
-                                <img src="./insulation_files/warranty-icon.png">
+                                <img src="/Why Koala_files/warranty-icon.png">
                             </div>
                             <h2 style="max-width: 500px; margin: 0 auto 15px;">Our Limited Lifetime Warranty Gives You
                                 Peace Of Mind</h2>
