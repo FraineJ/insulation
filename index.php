@@ -17,11 +17,11 @@ include('include/header.php')
                             <h1>Experience The Comfort Of A Home That Always Feels Just Right</h1>
                             <p>Insulationusa Insulation provides efficient, friendly, and cost-effective services for all your
                                 insulation needs.</p>
-                            <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
+                            <form action="" class="find_nearest_form mt-4">
                                 <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4">
                                 <input type="text" name="zip_code" maxlength="6" class="form-control"
-                                    placeholder="Enter Your ZIP Code">
-                                <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                        placeholder="Enter Your ZIP Code">
+                                <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
                                     LOCATION</button>
                             </form>
                         </div>
@@ -2406,11 +2406,11 @@ include('include/header.php')
                             </li>
                         </ul>
                         <div class="text-center">
-                            <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-5">
+                            <form action="" class="find_nearest_form mt-5">
                                 <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4">
                                 <input type="text" name="zip_code" maxlength="6" class="form-control"
                                     placeholder="Enter Your ZIP Code">
-                                <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
                                     LOCATION</button>
                             </form>
                         </div>
@@ -2458,11 +2458,11 @@ include('include/header.php')
                                 Peace Of Mind</h2>
                             <p class="lead_txt">We deliver solutions that are built to last. Our projects are protected
                                 by a limited lifetime warranty.</p>
-                            <form action="https://koalainsulation.com/find_zip_code" class="find_nearest_form mt-4">
+                            <form action="" class="find_nearest_form mt-4">
                                 <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4">
                                 <input type="text" name="zip_code" maxlength="6" class="form-control"
                                     placeholder="Enter Your ZIP Code">
-                                <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
+                                <button type="button" onclick="openPopup()" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST
                                     LOCATION</button>
                             </form>
 
@@ -2599,8 +2599,10 @@ include('include/header.php')
     </div>
     <!-- End body content -->
   
+ 
 <?php
 
     include('include/footer.php')
 
 ?>
+

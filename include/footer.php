@@ -1,3 +1,36 @@
+   
+<div class="modal fade show" id="search_success" style="display: none; padding-right: 17px; background: #0000004f;">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+
+                <button type="button" class="close" data-dismiss="modal"  onclick="closedPopup()"  ><img src="https://koalainsulation.com/corp_images/close-icon.png"></button>
+                <div class="zip_success_image_popup">
+                    <img src="insulation_files/Miami_Banner.png">
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <div class="location_service_header">
+                        <h3>Your servicing location is: Insulation of <strong class="location_name">Fort Lauderdale</strong></h3>
+                        <p class="calling_popup_ui"><strong>Call/Text:</strong> <a href="tel:(954) 303-6361"><span class="location_phone_number">(954) 303-6361</span></a></p>
+                    </div>
+                    <div class="location_contact_method">
+                        <h4>We have 5 convenient contact methods!</h4>
+                        <p class="calling_popup_ui"><a href="tel:(954) 303-6361"><i class="fa fa-phone"></i> <span class="location_phone_number">(954) 303-6361</span></a></p>
+                        <p class="calling_popup_ui"><a href="tel:(954) 303-6361"><i class="fa fa-commenting"></i> <span class="location_phone_number">(954) 303-6361</span></a></p>
+                        <ul class="d-flex flex-wrap">
+                            <li><a href="https://insulation-usa.com" target="_blank" class="custom_btn pulse-button microsite_url" style="background: #76ADC7;">Visit Local Koala Website</a></li>
+                            <li><a href="tel:(954) 303-6361" class="custom_btn pulse-button booking_url" style="background: #7EB4A3;" target="_blank">Call now</a></li>
+                            <li><a href="https://insulation-usa.com/insulation/Batt_Insulation.php" class="inquiry_btn custom_btn pulse-button">Services</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>    
+  
   <!-- Start Sub Footer section -->
   <section class="sub-footer-menu green_dark_shade_bg">
         <div class="container">
@@ -420,8 +453,9 @@
     <script src="./insulation_files/custom.js.descarga"></script>
     <!-- Custom js for this page-->
     <script src="./insulation_files/home.js.descarga"></script>
-    <script src="./insulation_files/js(1)">
-    </script>
+    <script src="./insulation_files/js(1)"></script>
+        
+    <script src="./insulation_files/popup.js"></script>
 
     <script> (function () {
             var s = document.createElement('script');

@@ -228,6 +228,8 @@
         }
     </style>
 
+    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5,user-scalable=0">
     <meta name="description" content="">
@@ -1039,6 +1041,8 @@
     <script type="text/javascript" charset="UTF-8" src="./insulation_files/onion.js.descarga"></script>
     <script type="text/javascript" charset="UTF-8" src="./insulation_files/infowindow.js.descarga"></script>
     <script type="text/javascript" charset="UTF-8" src="./insulation_files/controls.js.descarga"></script>
+  
+
 </head>
 
 <body class=" home " data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
