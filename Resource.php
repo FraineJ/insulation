@@ -44,11 +44,11 @@ The purpose of quality insulation within a building is to help maintain climate 
                                         <div class="col-lg-4 col-md-6">
                     <div class="resources_grid">
                         <div class="resource_img">
-                            <img src="./Resource_files/8808b24fedfd5c4f1ed01be1b8a5da37.jpeg" class="img-fluid">
+                            <img src="https://www.insulationusa.2com.co/wp-content/uploads/2023/02/Casa.webp" class="img-fluid">
                         </div>
                         <div class="resource-block">
                             <small>February 15, 2023</small>
-                            <h3 class="mt-2 mb-3"><a href="https://koalainsulation.com/resource_detail/4-ways-to-save-on-your-energy-bills-and-reduce-energy-waste" class="">4 Ways to Save On Your Energy Bills and Reduce Energy Waste</a></h3>
+                            <h3 class="mt-2 mb-3"><a href="./4 Ways to Save On Your Energy Bills and Reduce Energy Waste.php" class="">4 Ways to Save On Your Energy Bills and Reduce Energy Waste</a></h3>
                                                         <div class="resource_desc_vs"><p>There are a number of household habits that contribute to energy waste and higher monthly costs. However, many homeowners tend to take simple adjustments and updates for granted, instead, looking for complex upgrades and renovations that don't have an effective return on investment. Here are a few ways you and your household can improve your energy efficiency with cost-effective practices and upgrades.
 
 &nbsp;
@@ -58,14 +58,14 @@ The purpose of quality insulation within a building is to help maintain climate 
 1. Switch Out Appliances
 
 The larger a ... </p></div>
-                            <a href="https://koalainsulation.com/resource_detail/4-ways-to-save-on-your-energy-bills-and-reduce-energy-waste" class="read_article_link">Read Article</a>
+                            <a href="./4 Ways to Save On Your Energy Bills and Reduce Energy Waste.php" class="read_article_link">Read Article</a>
                         </div>
                     </div>
                 </div>
                                         <div class="col-lg-4 col-md-6">
                     <div class="resources_grid">
                         <div class="resource_img">
-                            <img src="./Resource_files/ea9c6766cf79c14735e696713309f65d.jpg" class="img-fluid">
+                            <img src="https://www.insulationusa.2com.co/wp-content/uploads/2023/02/Casa.webp" class="img-fluid">
                         </div>
                         <div class="resource-block">
                             <small>February 8, 2023</small>
