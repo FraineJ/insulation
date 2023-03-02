@@ -9,7 +9,7 @@ include('include/header.php')
         <!-- Start hero Banner -->
         <section class="home_banner"
             style="background-image: url('insulation_files/home-pages.webp');">
-            <img class="d-none page_banner_mobile" src="./insulation_files/home-pages.jpg">
+            <img class="d-none page_banner_mobile" src="./insulation_files/home-pages.webp">
             <div class="container hero_caption">
                 <div class="row">
                     <div class="col-lg-7">

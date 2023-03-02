@@ -177,16 +177,13 @@ include('include/header.php')
                             </div>
                             <h2 style="max-width: 500px; margin: 0 auto 15px;">Every Project Is Backed By Insulationusa’s Limited Lifetime Guarantee</h2>
                             <p class="lead_txt">Feel confident knowing your insulation project is backed by a limited lifetime guarantee.</p>
-                            <form action="https://Insulationusainsulation.com/find_zip_code" class="find_nearest_form mt-4">
-                                <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4">                                <input type="text" name="zip_code" maxlength="6" class="form-control" placeholder="Enter Your ZIP Code">
-                                <button type="button" class="custom_btn_orange fynl_btn">FIND YOUR NEAREST LOCATION</button>
-                            </form>
+                        
                         </div>
                     </div>
                 </div>
             </div>
             <div class="lifetime_img">
-                <img src="./insulation_files/why-lifetime-img.jpg">
+                <img src="insulation_files/home-banner.webp">
             </div>
         </section>
 

@@ -476,7 +476,7 @@
                 <div class="modal-body">
                     <div class="book_popup_model_content">
                         <div class="book_popup_model_img">
-                            <img src="./Insulation Removal_files/Obie_Guide.png">
+                            <img src="./insulation_files/My-warranty-icon.png">
                         </div>
                         <div class="book_popup_model_text">
                             <h3>FIND YOUR NEAREST LOCATION</h3>
