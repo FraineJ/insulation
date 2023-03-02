@@ -1,0 +1,120 @@
+$(document).ready(function () {
+
+    /*Step Wizard for assesment form */
+    var form = $(".assesment_form");
+    var validator = form.validate({
+        rules: {
+            location_climate: "required",
+            what_most_important_you: "required",
+            tight_budget: "required",
+            which_more_important_you: "required",
+            prefer_insulation_home: "required",
+
+        },
+        messages: {
+            "location_climate":"Please select an option",
+            "what_most_important_you":"Please select an option",
+            "tight_budget":"Please select an option",
+            "which_more_important_you":"Please select an option",
+            "prefer_insulation_home":"Please select an option",
+        }
+    });
+
+    $("#step1 .custom_btn_orange").click(function(){
+        var active = $(".wizard .nav-tabs li.active");
+        active.next().removeClass("disabled");
+        nextTab(active);
+    });
+
+    $("#step2 .custom_btn_orange").click(function(){
+        if (form.valid() === true){
+            var active = $(".wizard .nav-tabs li.active");
+            active.next().removeClass("disabled");
+            nextTab(active);
+        }
+    });
+
+    $("#step3 .custom_btn_orange").click(function(){
+        validator.resetForm();
+        if (form.valid() === true){
+            var active = $(".wizard .nav-tabs li.active");
+            active.next().removeClass("disabled");
+            nextTab(active);
+        }
+    });
+
+    $("#step4 .custom_btn_orange").click(function(){
+        validator.resetForm();
+        if (form.valid() === true){
+            var active = $(".wizard .nav-tabs li.active");
+            active.next().removeClass("disabled");
+            nextTab(active);
+        }
+    });
+
+    $("#step5 .custom_btn_orange").click(function(){
+        validator.resetForm();
+        if (form.valid() === true){
+            var active = $(".wizard .nav-tabs li.active");
+            active.next().removeClass("disabled");
+            nextTab(active);
+        }
+    });
+
+    $("#step6 .custom_btn_orange").click(function(){
+        validator.resetForm();
+        if (form.valid() === true){
+          /*  var active = $(".wizard .nav-tabs li.active");
+            active.next().removeClass("disabled");
+            nextTab(active);*/
+
+            $.ajax({
+                type: 'POST',
+                url: $("#assessment_form").attr("action"),
+                data: $("#assessment_form").serialize(),
+                success: function (response) {
+                    if (response.success != undefined) {
+                        $('#assessment_form')[0].reset();
+                        $("#step7").find("h3").text(response.data.service_name);
+                        $("#step7").find("p").text(response.data.service_description);
+                        $("#step7").find("img").attr("src",response.data.service_image_url);
+                        $("#step7").find("a").attr("href",response.data.service_url);
+                        $("#step7").find("a").text("Learn more about "+response.data.service_name);
+                        var active = $(".wizard .nav-tabs li.active");
+                        active.next().removeClass("disabled");
+                        nextTab(active);
+
+                    }
+                    if (response.error != undefined) {
+                        toastr["error"](response.message);
+                    }
+
+                },
+                error: function (response) {
+                    if (response.status == 302) {
+                        var err = JSON.parse(response.responseText);
+                        toastr["error"](err.message);
+                        setTimeout(function () {
+                            window.location.reload();
+                        }, 3000);
+                        return false;
+                    }
+                    toastr["error"]("Please try again later");
+
+
+                }
+            });
+
+        }
+    });
+
+    function nextTab(elem) {
+        $(elem).next().find('a[data-toggle="tab"]').click();
+    }
+
+    $('.nav-tabs').on('click', 'li', function() {
+        $('.nav-tabs li.active').removeClass('active');
+        $(this).addClass('active');
+    });
+
+});

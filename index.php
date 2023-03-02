@@ -66,7 +66,7 @@ include('include/header.php')
                                 </div>
                             </div>
                             <div class="col-md-12 text-center">
-                                <a href="https://koalainsulation.com/see_what_insulation_is_right_for_you"
+                                <a href="./Assesment.php"
                                     class="btn custom_btn">SEE WHAT INSULATION IS RIGHT FOR YOU</a>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ include('include/header.php')
                             </li>
                         </ul>
                         <div class="text-left"><a
-                                href="https://koalainsulation.com/see_what_insulation_is_right_for_you"
+                                href="./Assesment.php"
                                 class="custom_btn mt-4 ">SEE WHAT INSULATION IS RIGHT FOR YOU</a></div>
 
                     </div>

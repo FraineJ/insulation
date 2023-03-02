@@ -33,11 +33,11 @@ include('include/header.php')
                         </div>
                         <div class="resource-block">
                             <small>February 27, 2023</small>
-                            <h3 class="mt-2 mb-3"><a href="articulos/How Can the Right Insulation Reduce Pest Problems_.php" class="">How Can the Right Insulation Reduce Pest Problems?</a></h3>
+                            <h3 class="mt-2 mb-3"><a href="./How Can the Right Insulation Reduce Pest Problems_.php" class="">How Can the Right Insulation Reduce Pest Problems?</a></h3>
                                                         <div class="resource_desc_vs"><p>Why is Insulation Important?&nbsp;
 
 The purpose of quality insulation within a building is to help maintain climate control by regulating temperature. The material reduces the rate of heat transfer, which is how easily heat can move through a structure. There are many different types of material used for insulation within a residential building and each has its own properties that make them effective at reducing the movement of heat. However, it's important to remember that each type of in ... </p></div>
-                            <a href="articulos/How Can the Right Insulation Reduce Pest Problems_.php" class="read_article_link">Read Article</a>
+                            <a href="/How Can the Right Insulation Reduce Pest Problems_.php" class="read_article_link">Read Article</a>
                         </div>
                     </div>
                 </div>
