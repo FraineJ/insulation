@@ -19,7 +19,7 @@
                         <p class="calling_popup_ui"><a href="tel:(954) 303-6361"><i class="fa fa-phone"></i> <span class="location_phone_number">(954) 303-6361</span></a></p>
                         <p class="calling_popup_ui"><a href="tel:(954) 303-6361"><i class="fa fa-commenting"></i> <span class="location_phone_number">(954) 303-6361</span></a></p>
                         <ul class="d-flex flex-wrap">
-                            <li><a href="https://insulation-usa.com" target="_blank" class="custom_btn pulse-button microsite_url" style="background: #76ADC7;">Visit Local Koala Website</a></li>
+                            <li><a href="https://insulation-usa.com" target="_blank" class="custom_btn pulse-button microsite_url" style="background: #76ADC7;">Visit Local Insulationusa Website</a></li>
                             <li><a href="tel:(954) 303-6361" class="custom_btn pulse-button booking_url" style="background: #7EB4A3;" target="_blank">Call now</a></li>
                             <li><a href="https://insulation-usa.com/insulation/Batt_Insulation.php" class="inquiry_btn custom_btn pulse-button">Services</a></li>
                         </ul>
@@ -88,7 +88,7 @@
                             <!-- <li><a href="https://insulation-usa.com/" target="_blank"><img src="https://koalainsulation.com/corp_images/logo-Insulatio-usa.png" alt=""></a></li> -->
                             <li><a href="https://wallabywindows.com/" target="_blank"><img
                                         src="./insulation_files/" alt=""></a></li>
-                            <li><a href="https://koalaductcleaning.com/" target="_blank"><img
+                            <li><a href="#" target="_blank"><img
                                         src="./insulation_files/logo-Insulatio-usa.png" alt=""></a></li>
                         </ul>
                     </div>
@@ -126,11 +126,6 @@
                             <li><a href="Blow_In_Insulation.php">Blow-In Insulation</a></li>
                             <li><a href="Spray_Foam_Insulation.php">Spray Foam Insulation</a></li>
                             <li><a href="Air_Sealing.php">Air Sealing</a></li>
-
-                            <!-- <li><a href="https://koalainsulation.com/franchise/" target="_blank">Franchise
-                                    Opportunities</a></li>
-                            <li><a href="https://koalainsulation.com/privacy_policy">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -219,9 +214,9 @@
                     </div>
                     <div class="location_contact_method">
                         <h4>We have 5 convenient contact methods!</h4>
-                        <p class="calling_popup_ui"><a href="https://koalainsulation.com/#"><i class="fa fa-phone"></i>
+                        <p class="calling_popup_ui"><a href="https://insulation-usa.com/#"><i class="fa fa-phone"></i>
                                 <span class="location_phone_number"></span></a></p>
-                        <p class="calling_popup_ui"><a href="https://koalainsulation.com/#"><i
+                        <p class="calling_popup_ui"><a href="https://insulation-usa.com/#"><i
                                     class="fa fa-commenting"></i> <span class="location_phone_number"></span></a></p>
                         <ul class="d-flex flex-wrap">
                             <li><a href="JavaScript:void(0);" target="_blank"
@@ -247,14 +242,14 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="mb-0">Let's get some information!</h2>
-                    <a href="https://koalainsulation.com/#" class="custom_btn ml-4 pulse-button"><i
+                    <a href="https://insulation-usa.com/#" class="custom_btn ml-4 pulse-button"><i
                             class="fa fa-phone"></i> <span class="location_phone_number"></span></a>
                     <button type="button" class="close" data-dismiss="modal"><img
                             src="./insulation_files/close-icon.png"></button>
                 </div>
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <form class="estimate_form" id="estimate_form" action="https://koalainsulation.com/store_estimate"
+                    <form class="estimate_form" id="estimate_form" action=""
                         novalidate="novalidate">
                         <input type="hidden" name="_token" value="y9IhyvSlBIQvMY2spG6BKiqzTAfoOrz3FRoQaku4"> <input
                             type="hidden" name="microsite_id">
@@ -436,8 +431,8 @@
     </div>
 
     <script>
-        var APP_BASE_URL = 'https://koalainsulation.com';
-        var ADMIN_KOALA_APP_URL = 'https://koalainsulation.com';
+        var APP_BASE_URL = 'https://insulation-usa.com';
+        var ADMIN_KOALA_APP_URL = 'https://insulation-usa.com';
     </script>
     <script src="./insulation_files/jquery.min.js.descarga"></script>
     <script src="./insulation_files/bootstrap.min.js.descarga"></script>
@@ -513,10 +508,10 @@
         aria-label="Accessibility Adjustments" aria-modal="true" aria-hidden="true" data-acsb="widget">
         <div class="acsb-main" data-acsb="main">
             <div class="acsb-header acsb-flex">
-                <div class="acsb-start"> <a href="https://koalainsulation.com/#" role="button" tabindex="0"
+                <div class="acsb-start"> <a href="https://insulation-usa.com/#" role="button" tabindex="0"
                         class="acsb-header-option acsb-header-option-close" data-acsb-option="close"
                         aria-label="Close Accessibility Interface"> <i class="acsbi-close"></i> </a> </div> <a
-                    role="button" href="https://koalainsulation.com/#" tabindex="0" aria-label="English"
+                    role="button" href="https://insulation-usa.com/#" tabindex="0" aria-label="English"
                     class="acsb-language acsb-header-option-language" data-acsb-option="language"
                     data-acsb-popup-trigger="acsb-language-popup"> <span class="acsb-language-flag"> <span
                             data-acsb-lazy-load="https://cdn.acsbapp.com/apps/app/dist/media/languages/en.svg"
@@ -524,18 +519,18 @@
                         class="acsb-language-text">English</span> <i class="acsbi-chevron_down"></i> </a>
             </div>
             <div class="acsb-hero"> <span class="acsb-hero-title">Accessibility Adjustments</span>
-                <div class="acsb-hero-actions acsb-flex"> <a href="https://koalainsulation.com/#"
+                <div class="acsb-hero-actions acsb-flex"> <a href="https://insulation-usa.com/#"
                         class="acsb-hero-action" role="button" tabindex="0" data-acsb-option="reset"> <i
                             class="acsbi-reset"></i> <span>Reset Settings</span> </a> <a
-                        href="https://koalainsulation.com/#" class="acsb-hero-action" role="button"
+                        href="https://insulation-usa.com/#" class="acsb-hero-action" role="button"
                         data-acsb-option="statement"> <i class="acsbi-bookmark"></i> <span>Statement</span> </a> <a
-                        href="https://koalainsulation.com/#" class="acsb-hero-action" role="button" tabindex="0"
+                        href="https://insulation-usa.com/#" class="acsb-hero-action" role="button" tabindex="0"
                         data-acsb-popup-trigger="acsb-hide-popup"> <i class="acsbi-hide"></i> <span>Hide
                             Interface</span> </a> </div>
             </div>
             <div class="acsb-search">
                 <form class="acsb-form" data-acsb-search="form" enctype="multipart/form-data"
-                    action="https://koalainsulation.com/#" method="POST"> <input type="text" tabindex="0"
+                    action="" method="POST"> <input type="text" tabindex="0"
                         name="acsb_search" autocomplete="off" placeholder="Unclear content? Search in dictionary..."
                         aria-label="Unclear content? Search in dictionary..."> <i class="acsbi-search"></i> <i
                         class="acsbi-chevron_down"></i> </form>
