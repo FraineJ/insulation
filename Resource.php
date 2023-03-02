@@ -81,7 +81,7 @@ While there are spray foam varieties that come  ... </p></div>
                         </div>
                     </div>
                 </div>
-                                        <div class="col-lg-4 col-md-6">
+                                        <!-- <div class="col-lg-4 col-md-6">
                     <div class="resources_grid">
                         <div class="resource_img">
                             <img src="./Resource_files/How-Can-Old-Insulation-Damage-Your-Home-and-Increase-Expenses-.jpg" class="img-fluid">
@@ -190,7 +190,7 @@ According to the NCMA, thermal bridging happens when “a relatively small area 
                             <a href="https://koalainsulation.com/resource_detail/thermal-bridging" class="read_article_link">Read Article</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                                         <!-- <div class="col-lg-4 col-md-6">
                     <div class="resources_grid">
                         <div class="resource_img">
