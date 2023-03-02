@@ -9,11 +9,10 @@
                                 <h5>Insulationusa</h5>
                                 <ul class="featured_link">
                                     <li><a href="index.php">Start Here</a></li>
-                                    <li><a href="https://koalainsulation.com/why_koala">Why Insulationusa</a></li>
-                                    <li><a href="https://koalainsulation.com/resource">Free Resources</a></li>
+                                    <li><a href="Why_insulation.php">Why Insulationusa</a></li>
+                                    <li><a href="Resource.php">Free Resources</a></li>
                                     <li><a href="javascrip:void(0);" data-target="#search_zip_code_modal"
                                             data-toggle="modal">Get A Quote</a></li>
-                                    <li><a href="https://koalainsulation.com/locations">Locations</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -23,22 +22,22 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <ul class="featured_link">
-                                            <li><a href="https://koalainsulation.com/batt_insulation">Batt
+                                            <li><a href="Batt_Insulation.php">Batt
                                                     Insulation</a></li>
-                                            <li><a href="https://koalainsulation.com/blown_in_insulation">Blow-In
+                                            <li><a href="Blow_In_Insulation.php">Blow-In
                                                     Insulation</a></li>
-                                            <li><a href="https://koalainsulation.com/spray_foam_insulation">Spray Foam
+                                            <li><a href="Spray_Foam_Insulation.php">Spray Foam
                                                     Insulation</a></li>
-                                            <li><a href="https://koalainsulation.com/air_sealing">Air Sealing</a></li>
+                                            <li><a href="Air_Sealing.php">Air Sealing</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
                                         <ul class="featured_link">
-                                            <li><a href="https://koalainsulation.com/solar_attic_fan">Solar Attic
+                                            <li><a href="Solar_Attic_Fan.php">Solar Attic
                                                     Fans</a></li>
-                                            <li><a href="https://koalainsulation.com/crawl_space">Crawl Space</a></li>
-                                            <li><a href="https://koalainsulation.com/builder">Builder Services</a></li>
-                                            <li><a href="https://koalainsulation.com/insulation_removal">Insulation
+                                            <li><a href="Crawl_Space.php">Crawl Space</a></li>
+                                            <li><a href="Builder.php">Builder Services</a></li>
+                                            <li><a href="Insulation_Removal.php">Insulation
                                                     Removal</a></li>
                                         </ul>
                                     </div>
@@ -91,6 +90,9 @@
                         <ul class="featured_link">
                             <li><a href="Incentive.php">Incentives</a></li>
                             <li><a href="Why_insulation.php">Why Insulationusa?</a></li>
+                            <li><a href="Blow_In_Insulation.php">Blow-In Insulation</a></li>
+                            <li><a href="Spray_Foam_Insulation.php">Spray Foam Insulation</a></li>
+                            <li><a href="Air_Sealing.php">Air Sealing</a></li>
 
                             <!-- <li><a href="https://koalainsulation.com/franchise/" target="_blank">Franchise
                                     Opportunities</a></li>
@@ -104,8 +106,6 @@
                         <h5>Connect With Us</h5>
                         <div class="footer">
 
-                    
-                    
                             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
                                 <div class="social_container social-facebbok">
                                     <a href="#" target="_blank" class="footer__social "><i class='fa fa-facebook'></i></a>

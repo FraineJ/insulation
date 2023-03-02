@@ -1081,7 +1081,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="idex.php">
+                <a class="navbar-brand" href="index.php">
                     <img class="default_logo" src="./insulation_files/logo-Insulatio-usa.png" alt="logo">
                     <img class="sticky_logo" src="./insulation_files/logo-Insulatio-usa.png" alt="logo">
                 </a>
