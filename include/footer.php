@@ -52,9 +52,9 @@
                     <div class="sub_footer_widget">
                         <h5>Our Family Of Companies</h5>
                         <ul class="companies_logos">
-                            <!-- <li><a href="https://koalainsulation.com/" target="_blank"><img src="https://koalainsulation.com/corp_images/logo-Insulatio-usa.png" alt=""></a></li> -->
+                            <!-- <li><a href="https://insulation-usa.com/" target="_blank"><img src="https://koalainsulation.com/corp_images/logo-Insulatio-usa.png" alt=""></a></li> -->
                             <li><a href="https://wallabywindows.com/" target="_blank"><img
-                                        src="./insulation_files/wallaby-logo.png" alt=""></a></li>
+                                        src="./insulation_files/" alt=""></a></li>
                             <li><a href="https://koalaductcleaning.com/" target="_blank"><img
                                         src="./insulation_files/logo-Insulatio-usa.png" alt=""></a></li>
                         </ul>
