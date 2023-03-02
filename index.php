@@ -2583,7 +2583,7 @@ include('include/header.php')
                             <li class="d-none d-sm-block"><a href="javascript:void(0);"
                                     data-target="#search_zip_code_modal" data-toggle="modal"
                                     class="btn custom_btn_orange ">FIND YOUR NEAREST LOCATION</a></li>
-                            <li><a href="https://koalainsulation.com/see_what_insulation_is_right_for_you"
+                            <li><a href="tel://9543036361"
                                     class="btn custom_btn">SEE WHAT INSULATION IS RIGHT FOR YOU</a></li>
                         </ul>
                     </div>
