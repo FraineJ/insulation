@@ -56,13 +56,13 @@ include('include/header.php')
                                 </ul>
                             </div>
 
-                            <form role="form" action="https://koalainsulation.com/store_assessment" id="assessment_form" class="assesment_form" novalidate="novalidate">
+                            <form role="form" action="https://insulation-usa.com" id="assessment_form" class="assesment_form" novalidate="novalidate">
                                 <input type="hidden" name="_token" value="WCgq94KpsSJu5p1pt1SRN9q93WRTABc82cQlMjuD">                                <div class="tab-content">
                                     <div class="tab-pane active" role="tabpanel" id="step1">
                                         <h2 class="text-center mb-4">Let's find out which insulation is right for you.</h2>
                                         <ul class="text-center mt-3">
                                             <li>
-                                                <button type="button" class="custom_btn_orange next-step">START ASSESSMENT</button>
+                                                <button  type="button" class="custom_btn_orange next-step">START ASSESSMENT</button>
                                             </li>
                                         </ul>
                                     </div>
