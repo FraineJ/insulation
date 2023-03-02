@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.986" height="84.484" viewBox="0 0 78.986 84.484">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_314" data-name="Rectangle 314" width="78.986" height="77.984" transform="translate(-4 -3)" fill="#75adc7" stroke="#70a6bf" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1495" data-name="Group 1495" transform="translate(-916.518 -3544.516)">
+    <ellipse id="Ellipse_78" data-name="Ellipse 78" cx="34" cy="2.5" rx="34" ry="2.5" transform="translate(920 3624)" fill="#7eb4a3" opacity="0.32"/>
+    <g id="Group_542" data-name="Group 542" transform="translate(-239)">
+      <path id="Path_2856" data-name="Path 2856" d="M-16746.5,189.5l28.441,15.95h-57.775Z" transform="translate(17942 3360)" fill="#94c83f"/>
+      <g id="Group_538" data-name="Group 538" transform="translate(1159.518 3547.516)">
+        <g id="Group_537" data-name="Group 537" clip-path="url(#clip-path)">
+          <path id="Path_2850" data-name="Path 2850" d="M70.894,732.812H1.091a1.091,1.091,0,0,0,0,2.181h69.8a1.091,1.091,0,0,0,0-2.181" transform="translate(0 -663.009)" fill="#75adc7" stroke="#75adc7" stroke-width="1"/>
+          <path id="Path_2851" data-name="Path 2851" d="M1.626,21.674l4.919-2.767V67.288a1.091,1.091,0,1,0,2.181,0V18.942H63.26V67.288a1.091,1.091,0,1,0,2.181,0V18.907l4.919,2.767a1.091,1.091,0,0,0,1.069-1.9L36.528.14a1.093,1.093,0,0,0-1.07,0L.557,19.773a1.091,1.091,0,1,0,1.069,1.9M35.993,2.343,62.115,17.037H9.871Z" transform="translate(-0.001 0)" fill="#75adc7" stroke="#75adc7" stroke-width="1"/>
+          <path id="Path_2852" data-name="Path 2852" d="M133.327,274.908a1.093,1.093,0,0,0,1.092-1.092V233.087l5.783,5.783a1.092,1.092,0,0,0,1.545-1.545l-7.648-7.648a1.092,1.092,0,0,0-1.545,0l-7.648,7.648a1.092,1.092,0,0,0,1.545,1.545l5.783-5.783v40.729a1.093,1.093,0,0,0,1.093,1.092" transform="translate(-112.72 -207.51)" fill="#75adc7" stroke="#75adc7" stroke-width="1"/>
+          <path id="Path_2853" data-name="Path 2853" d="M430.5,274.908a1.093,1.093,0,0,0,1.092-1.092V233.087l5.783,5.783a1.092,1.092,0,0,0,1.545-1.545l-7.648-7.648a1.092,1.092,0,0,0-1.545,0l-7.648,7.648a1.092,1.092,0,0,0,1.545,1.545l5.783-5.783v40.729a1.093,1.093,0,0,0,1.093,1.092" transform="translate(-381.582 -207.51)" fill="#75adc7" stroke="#75adc7" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

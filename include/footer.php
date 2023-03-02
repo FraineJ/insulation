@@ -8,7 +8,7 @@
                             <div class="sub_footer_widget">
                                 <h5>Insulationusa</h5>
                                 <ul class="featured_link">
-                                    <li><a href="https://koalainsulation.com/start_here">Start Here</a></li>
+                                    <li><a href="index.php">Start Here</a></li>
                                     <li><a href="https://koalainsulation.com/why_koala">Why Insulationusa</a></li>
                                     <li><a href="https://koalainsulation.com/resource">Free Resources</a></li>
                                     <li><a href="javascrip:void(0);" data-target="#search_zip_code_modal"

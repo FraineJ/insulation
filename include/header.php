@@ -1081,7 +1081,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="https://koalainsulation.com/">
+                <a class="navbar-brand" href="idex.php">
                     <img class="default_logo" src="./insulation_files/logo-Insulatio-usa.png" alt="logo">
                     <img class="sticky_logo" src="./insulation_files/logo-Insulatio-usa.png" alt="logo">
                 </a>
@@ -1119,7 +1119,7 @@
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <ul class="submenu_ul">
-                                                            <li><a href="https://koalainsulation.com/batt_insulation">Batt
+                                                            <li><a href="Batt_Insulation.php">Batt
                                                                     Insulation</a></li> 
                                                             <li><a
                                                                     href="Blow_In_Insulation.php">Blow-In
@@ -1133,22 +1133,19 @@
                                                     </div>
                                                     <div class="col-md-6">
                                                         <ul class="submenu_ul">
-                                                            <li><a href="https://koalainsulation.com/solar_attic_fan">Solar
+                                                            <li><a href="Solar_Attic_Fan.php">Solar
                                                                     Attic Fans</a></li>
-                                                            <li><a href="https://koalainsulation.com/crawl_space">Crawl
+                                                            <li><a href="Crawl_Space.php">Crawl
                                                                     Space</a></li>
-                                                            <li><a href="https://koalainsulation.com/builder">Builder
+                                                            <li><a href="Builder.php">Builder
                                                                     Services</a></li>
                                                             <li><a
-                                                                    href="https://koalainsulation.com/insulation_removal">Insulation
+                                                                    href="Insulation_Removal.php">Insulation
                                                                     Removal</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                <div class="mt-4">
-                                                    <a href="https://koalainsulation.com/our_services"
-                                                        class="view_all_link">View All Services</a>
-                                                </div>
+                                           
                                             </div>
                                         </div>
                                         <div class="col-md-5">
@@ -1169,9 +1166,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Incentive.php">Incentives</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="Location.php">Locations</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="javascrip:void(0);" data-target="#search_zip_code_modal"
                                 data-toggle="modal">Get A Quote</a>
@@ -1189,10 +1186,10 @@
                             <li><a href="index.php">Start Here</a></li>
                             <li><a href="javascript:void(0)" class="mobile-services-submenu">Services <i
                                         class="fa fa-angle-down" style="font-size: 20px;"></i></a></li>
-                            <li><a href="Why_insulation.php">Why Koala?</a></li>
+                            <li><a href="Why_insulation.php">Why Insulationusa?</a></li>
                             <li><a href="Resource.php">Free Resources</a></li>
                             <li><a href="Incentive.php">Incentives</a></li>
-                            <li><a href="Location.php">Locations</a></li>
+                            <!-- <li><a href="Location.php">Locations</a></li> -->
                             <li><a href="javascrip:void(0);" data-target="#search_zip_code_modal"
                                     data-toggle="modal">Get A Quote</a></li>
                         </ul>
@@ -1208,16 +1205,15 @@
                                 <a href="javascript:void(0)" class="return-to-menu"><i class="fa fa-angle-left mr-3"
                                         style="font-size: 20px;"></i> RETURN TO MAIN MENU</a>
                             </li>
-                            <li><a href="https://koalainsulation.com/our_services">View All Services</a></li>
-                            <li><a href="https://koalainsulation.com/batt_insulation">Batt Insulation</a></li>
-                            <li><a href="https://koalainsulation.com/blown_in_insulation">Blow-In Insulation</a></li>
-                            <li><a href="https://koalainsulation.com/spray_foam_insulation">Spray Foam Insulation</a>
+                            <li><a href="Batt_Insulation.php">Batt Insulation</a></li>
+                            <li><a href="Blow_In_Insulation.php">Blow-In Insulation</a></li>
+                            <li><a href="Spray_Foam_Insulation.php">Spray Foam Insulation</a>
                             </li>
-                            <li><a href="https://koalainsulation.com/air_sealing">Air Sealing</a></li>
-                            <li><a href="https://koalainsulation.com/solar_attic_fan">Solar Attic Fans</a></li>
-                            <li><a href="https://koalainsulation.com/crawl_space">Crawl Space</a></li>
-                            <li><a href="https://koalainsulation.com/builder">Builder Services</a></li>
-                            <li><a href="https://koalainsulation.com/insulation_removal">Insulation Removal</a></li>
+                            <li><a href="Air_Sealing.php">Air Sealing</a></li>
+                            <li><a href="Solar_Attic_Fan.php">Solar Attic Fans</a></li>
+                            <li><a href="Crawl_Space.php">Crawl Space</a></li>
+                            <li><a href="Builder.php">Builder Services</a></li>
+                            <li><a href="Insulation_Removal.php">Insulation Removal</a></li>
                         </ul>
                     </div>
                 </div>
