@@ -2254,7 +2254,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide" data-slick-index="0" aria-hidden="true"
                                         tabindex="-1" role="option" aria-describedby="slick-slide00"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/blown_in_insulation" tabindex="-1">
+                                        <a href="https://www.insulation-usa.com/Blow_In_Insulation.php" tabindex="-1">
                                             <div class="s_img">
                                                 <img src="./insulation_files/fiberglass-insulation.jpg">
                                             </div>
@@ -2267,7 +2267,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide slick-current slick-active" data-slick-index="1"
                                         aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide01"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/spray_foam_insulation" tabindex="0">
+                                        <a href="https://www.insulation-usa.com/Spray_Foam_Insulation.php" tabindex="0">
                                             <div class="s_img">
                                                 <img src="./insulation_files/metal-building-insulation.jpg">
                                             </div>
@@ -2280,7 +2280,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide slick-active" data-slick-index="2"
                                         aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide02"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/batt_insulation" tabindex="0">
+                                        <a href="https://www.insulation-usa.com/Batt_Insulation.php" tabindex="0">
                                             <div class="s_img">
                                                 <img src="./insulation_files/wall-insulation-company.jpg">
                                             </div>
@@ -2293,7 +2293,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide" data-slick-index="3" aria-hidden="true"
                                         tabindex="-1" role="option" aria-describedby="slick-slide03"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/builder" tabindex="-1">
+                                        <a href="https://www.insulation-usa.com/Builder.php" tabindex="-1">
                                             <div class="s_img">
                                                 <img src="./insulation_files/builder-service.jpg">
                                             </div>
@@ -2306,7 +2306,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide" data-slick-index="4" aria-hidden="true"
                                         tabindex="-1" role="option" aria-describedby="slick-slide04"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/crawl_space" tabindex="-1">
+                                        <a href="https://www.insulation-usa.com/Builder.php" tabindex="-1">
                                             <div class="s_img">
                                                 <img src="./insulation_files/crawl-service.jpg">
                                             </div>
@@ -2319,7 +2319,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide" data-slick-index="5" aria-hidden="true"
                                         tabindex="-1" role="option" aria-describedby="slick-slide05"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/solar_attic_fan" tabindex="-1">
+                                        <a href="https://www.insulation-usa.com/Solar_Attic_Fan.php" tabindex="-1">
                                             <div class="s_img">
                                                 <img src="./insulation_files/attic-fans.jpg">
                                             </div>
@@ -2332,7 +2332,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide" data-slick-index="6" aria-hidden="true"
                                         tabindex="-1" role="option" aria-describedby="slick-slide06"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/air_sealing" tabindex="-1">
+                                        <a href="https://www.insulation-usa.com/Air_Sealing.php" tabindex="-1">
                                             <div class="s_img">
                                                 <img src="./insulation_files/air-sealing.jpg">
                                             </div>
@@ -2345,7 +2345,7 @@ include('include/header.php')
                                     <div class="s_grid slick-slide" data-slick-index="7" aria-hidden="true"
                                         tabindex="-1" role="option" aria-describedby="slick-slide07"
                                         style="width: 440px;">
-                                        <a href="https://koalainsulation.com/insulation_removal" tabindex="-1">
+                                        <a href="https://www.insulation-usa.com/Insulation_Removal.php" tabindex="-1">
                                             <div class="s_img">
                                                 <img src="./insulation_files/insulation-removal.jpg">
                                             </div>
